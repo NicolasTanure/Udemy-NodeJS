@@ -20,4 +20,6 @@ async function main(){
     }
 }
 
+console.log("socorno")
+
 main();
