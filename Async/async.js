@@ -12,7 +12,7 @@ function soma(x){
 
 async function main(){
     try{
-        const resultado = await soma('20');
+        const resultado = await soma(20);
         console.log(`resultado com async: ${resultado}`)
     } catch(error){
         console.log("problemas " + error)
@@ -20,6 +20,6 @@ async function main(){
     }
 }
 
-console.log("socorno")
+
 
 main();
