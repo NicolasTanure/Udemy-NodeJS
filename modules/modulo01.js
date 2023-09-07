@@ -4,6 +4,8 @@ const oculta = ()=>{
     console.log('executando função oculta')
 }
 
-module.exports.executa = ()=>{
+const executa = ()=>{
     console.log('executando a funçao executa')
 }
+
+module.exports = {executa}
